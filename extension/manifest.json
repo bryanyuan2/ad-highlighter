@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+    "name": "AD-highligher",
+    "description": "AD-highligher - 1st Yahoo Taiwan/Japan hackday 2015",
+    "version": "0.1",
+    "icons": {
+        "128": "asserts/icons/icon-128.png",
+        "48": "asserts/icons/icon-48.png",
+        "24": "asserts/icons/icon-24.png",
+        "16": "asserts/icons/icon-16.png"
+    },
+    "background": {
+        "persistent": false,
+        "scripts": [ "asserts/libs/jquery-2.0.0.min.js", "scripts/background_history.js", "scripts/background_action.js"]
+    },
+    "browser_action": { "default_title": "Demo Extension" },
+    "permissions": [ "history", "tabs", "storage", "<all_urls>", "http://*/", "https://*/", "http://ec2-52-192-27-88.ap-northeast-1.compute.amazonaws.com:5000/", "https://ec2-52-192-27-88.ap-northeast-1.compute.amazonaws.com:5000/", "http://freegeoip.net/"],
+    "content_scripts": [{
+      "all_frames": false,
+      "js": [ "asserts/libs/jquery-2.0.0.min.js", "scripts/contentscript.js"],
+      "css": [ "asserts/css/yhack.css" ],
+      "matches": [ "<all_urls>" ]
+    }],
+    "web_accessible_resources": [
+        "asserts/icons/icon-128.png",
+        "asserts/icons/icon-48.png",
+        "asserts/icons/icon-24.png"
+    ],
+    "browser_action": {
+        "default_icon": "asserts/icons/icon-48.png"
+    },
+    "author": "TW/JP Yahoo"
+}
