@@ -1,6 +1,5 @@
-## AD-highlighter - 1st Yahoo Taiwan/Japan Hackday
+## AD-highlighter
 
-##### [Hackpad](https://goo.gl/z9mD15)
 ##### DECK
 - [pick](https://docs.google.com/presentation/d/1xiNzc4lSmBuC3H__JoVP2gr0N84RJZKiiK58D8SRQgk/edit#slide=id.p4)
 - [final](https://docs.google.com/presentation/d/18EraVcQUpF8v1ImB5FXeFK1mWlahqmL3Gme3PtSwZi0/edit#slide=id.p6)
@@ -13,9 +12,8 @@
 - Tim Weng [@ctweng](https://github.com/ctweng)
 - Norman [@normany](https://github.com/Normany)
 
-
 #### SCREENSHOTS
 
-![origin](https://git.corp.yahoo.com/cycheng/ad-highlighter/blob/master/screenshots/ad-highligher-1.jpg?raw=true)
+![origin](https://raw.githubusercontent.com/bryanyuan2/ad-highlighter/master/screenshots/ad-highligher-1.jpg)
 
-![with ad-highlighter](https://git.corp.yahoo.com/cycheng/ad-highlighter/blob/master/screenshots/ad-highligher-2.jpg?raw=true)
+![with ad-highlighter](https://raw.githubusercontent.com/bryanyuan2/ad-highlighter/master/screenshots/ad-highligher-2.jpg)
